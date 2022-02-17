@@ -1,0 +1,72 @@
+.Header {
+  background: hsl(0, 0%, 98%);
+  height: 10vh;
+  box-shadow: 3px 3px 3px hsl(0, 0%, 52%);
+  display: flex;
+  align-items: center;
+  /* padding-left: 10px;
+    padding-right: 10px; */
+  padding: 0px 50px 0px 50px;
+  max-width: 100%;
+}
+.mode {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.mode span {
+  margin: 10px;
+}
+.world {
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .header {
+    width: 100%;
+  }
+  .world {
+    font-size: 16px;
+  }
+  .mode{
+      font-size: 10px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header {
+    width: 100%;
+  }
+  .world {
+    font-size: 18.72px;
+  }
+  .mode{
+    font-size: 12px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header {
+    width: 100%;
+  }
+  .world {
+    font-size: 24px;
+  }
+  .mode{
+    font-size: 16px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header {
+    width: 100%;
+  }
+  .wold {
+    font-size: 32px;
+  }
+  .mode{
+    font-size: 18px;
+}
+}

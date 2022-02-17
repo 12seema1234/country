@@ -1,0 +1,60 @@
+.maindiv {
+  margin-left: 50px;
+}
+
+.contentdiv {
+  width: 100%;
+  margin-top: 50px;
+  display: inline-flex;
+}
+.flagdiv {
+  width: 50%;
+}
+.datamain {
+  width: 50%;
+  display: flex;
+}
+.datainfo-1 {
+  width: 50%;
+}
+.datainfo-2 {
+  width: 50%;
+  margin: 50px;
+}
+.buttondiv {
+  margin-top: 50px;
+}
+img {
+  height: 400px;
+  width: 100%;
+}
+.arrow {
+  position: relative;
+  left: 35px;
+  top: auto;
+  bottom: auto;
+  font-size: 20px;
+}
+button {
+  width: 100px;
+  box-shadow: 2px 2px 2px 2px hsl(0, 0%, 52%);
+  padding: 5px 10px 5px 20px;
+}
+.datainfo-1 span {
+  margin-left: 100px;
+  padding-top: 15px;
+}
+.datainfo-1 :nth-child(1) {
+  font-weight: bold;
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+.datainfo-2 :nth-child(1) {
+  padding-top: 30px;
+}
+.datainfo-1 :nth-child(7) {
+  padding-top: 50px;
+}
+.datainfo-2 span {
+  padding-top: 15px;
+}
