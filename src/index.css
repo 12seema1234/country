@@ -1,6 +1,101 @@
 *{
     font-family: 'Nunito Sans';
-     background: hsl(0, 0%, 98%); 
+     background: var(--background); 
     box-sizing: border-box;}
 
    
+ /* X-Small devices (portrait phones, less than 576px) */
+    @media (min-width: 576px) { 
+        .header {
+            width: 100%;
+          
+          }
+          .world {
+            font-size:16px;
+          }
+          .mode{
+              font-size: 10px;
+          }
+          .searchBox {
+            width: 150px;
+          }
+          .selectItem {
+            width: 80px;
+          }
+          
+        
+     }
+    
+    /* // Small devices (landscape phones, less than 768px) */
+    @media (min-width: 768px) { 
+        .header {
+            width: 100%;
+          }
+          .world {
+            font-size: 18.72px;
+          }
+          .mode{
+            font-size: 12px;
+        }
+        .searchBox {
+            width: 200px;
+          }
+          .selectItem {
+            width: 100px;
+          }
+       }
+    
+    /* // Medium devices (tablets, less than 992px) */
+    @media (min-width: 992px) { 
+        .header {
+            width: 100%;
+          }
+          .world {
+            font-size: 20px;
+          }
+          .mode{
+            font-size: 14px;
+        }
+        .searchBox {
+            width: 300px;
+          }
+          .selectItem {
+            width: 120px;
+          }
+    }
+    
+    /* // Large devices (desktops, less than 1200px) */
+    @media (min-width: 1200px) { 
+        .header {
+            width: 100%;
+          }
+          .world {
+            font-size: 24px;
+          }
+          .mode{
+            font-size: 16px;
+        }
+        .searchBox {
+            width: 350px;
+          }
+          .selectItem {
+            width: 150px;
+          }
+          
+ }
+    
+    /* // X-Large devices (large desktops, less than 1400px) */
+    @media (min-width: 1400px) { 
+        .header {
+    width: 100%;
+  }
+  .wold {
+    font-size: 32px;
+  }
+  .mode{
+    font-size: 18px;
+}
+         }
+    
+    /* // XX-Large devices (larger desktops)
+    // No media query since the xxl breakpoint has no upper bound on its width */ 

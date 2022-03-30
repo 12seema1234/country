@@ -6,10 +6,10 @@
   width: 350px;
   padding: 5px;
   border-radius: 5px;
-  background: hsl(0, 0%, 98%);
+  background:var(--background);
   display: flex;
   align-items: center;
-  box-shadow: 2px 2px 2px 2px hsl(0, 0%, 52%);
+  box-shadow: 2px 2px 2px 2px var(--shadow);
   position: relative;
 }
 
@@ -18,8 +18,8 @@
   height: 40px;
   padding: 5px;
   border-radius: 5px;
-  background: hsl(0, 0%, 98%);
-  box-shadow: 2px 2px 2px 2px hsl(0, 0%, 52%);
+  background: var(--background);
+  box-shadow: 2px 2px 2px 2px var(--shadow);
 }
 .TextBox {
   padding: 5px;
@@ -39,35 +39,15 @@
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
-  .searchBox {
-    width: 150px;
-  }
-  .selectItem {
-    width: 80px;
-  }
+/* @media (min-width: 576px) {
+  
 }
 @media (min-width: 768px) {
-  .searchBox {
-    width: 200px;
-  }
-  .selectItem {
-    width: 100px;
-  }
+  
 }
 @media (min-width: 992px) {
-  .searchBox {
-    width: 300px;
-  }
-  .selectItem {
-    width: 120px;
-  }
+  
 }
 @media (min-width: 1200px) {
-  .searchBox {
-    width: 350px;
-  }
-  .selectItem {
-    width: 150px;
-  }
-}
+ 
+} */

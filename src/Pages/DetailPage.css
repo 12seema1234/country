@@ -30,14 +30,14 @@ img {
 }
 .arrow {
   position: relative;
-  left: 35px;
-  top: auto;
-  bottom: auto;
+  left: 10px;
+  top: 25px;
+  display: flex;
   font-size: 20px;
 }
 button {
   width: 100px;
-  box-shadow: 2px 2px 2px 2px hsl(0, 0%, 52%);
+  box-shadow: 2px 2px 2px 2px var(--shadow);
   padding: 5px 10px 5px 20px;
 }
 .datainfo-1 span {

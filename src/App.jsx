@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path='/'>
           <Route index element={<Home/>}/>
-          <Route path="pages" element={<DetailPage/>} />
+          <Route path="pages/:alpha3Code" element={<DetailPage/>} />
         </Route>
       </Routes>
     </div>
